@@ -1,0 +1,176 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "logo menu1 menu1"
+    "nav nav nav"
+    "slideShow slideShow slideShow"
+    "circle1 circle2 circle3"
+    "footer footer footer";
+    border:0;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+
+}
+
+.socialMedia { 
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+}
+
+.menu1 {
+    grid-area: menu1;
+}
+
+.ul1 {
+    text-align: right;
+}
+
+.ul1 li {
+    display: inline-block;
+    padding-right: 1%;
+}
+
+.ul2 {
+    text-align: right;
+}
+
+.ul2 li{
+    display: inline-block;
+    padding-right: 1%;
+}
+
+
+.nav {
+    background-image: url(./assets/nav.png);
+    height: 3.5rem;
+    width: auto;
+ background-size: 100%;
+    grid-area:nav;
+}
+
+.ul3 {
+    text-align: center;
+}
+
+.ul3 li {
+ color: rgb(255, 255, 255);
+ display: inline-block;
+ padding: 2%;
+ padding-bottom: 0.2rem;
+ padding-top: 0.2rem;
+ border: solid 2px white;
+ margin-right: 2rem;
+ border-radius: 10%;
+ box-shadow: rgb(255, 255, 255) 0px 15px 25px -10px;
+}
+
+.ul3 li:hover {
+    box-shadow: rgb(255, 255, 255) 0px 15px 10px -10px;
+}
+
+.slideShow {
+    grid-area: slideShow;
+    margin-bottom: 4%;
+    margin-top: 1%;
+
+}
+
+.slideShow img {
+    width: 100%;
+    height: auto;
+
+
+}
+
+.circle1 {
+    background-image: url(./assets/fog.png);
+    background-size: cover;
+    border:solid 1px black;
+    border-radius: 5%;
+    grid-area: circle1;
+    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+
+.circle1 img {
+    background-color: rgb(154, 154, 155);
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.circle2 {
+    background-image: url(./assets/fog.png);
+    background-size: cover;
+    border:solid 1px black;
+    border-radius: 5%;
+    grid-area: circle2;
+    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.circle2 img {
+    background-color: rgb(154, 154, 155);
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.circle3 {
+    background-image: url(./assets/fog.png);
+    background-size: cover;
+    border:solid 1px black;
+    border-radius: 5%;
+    grid-area: circle3;
+    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.circle3 img {
+    background-color: rgb(154, 154, 155);
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    grid-area: footer;
+    margin-top: 5%;
+    padding: 1%;
+    text-align: center;
+}
+
+
